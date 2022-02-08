@@ -25,3 +25,19 @@ Route::get('/beli', function () {
 Route::get('/indexadmin', function () {
     return view('admin.indexadmin');
 });
+Route::get('/kategori', function () {
+    return view('admin.kategori');
+});
+Route::get('/transaksi', function () {
+    return view('admin.transaksi');
+});
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/databeli', function () {
+    return view('databeli');
+});
+Route::get('/profile', function () {
+    return view('profile');
+});
+

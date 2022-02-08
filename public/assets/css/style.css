@@ -87,13 +87,14 @@
 }
 .all-card{
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
 }
 .card{
     border: none;
     border-radius: 10px;
     padding-bottom: 10px;
     margin-top: 20px;
+    margin-left: 10px;
 }
 .card img{
     border-radius: 10px;

@@ -19,7 +19,7 @@
                 </h3>
                 <form action="" class="mt-4">
                     <div class="form-buku">
-                        <div class="mb-3">
+                        {{-- <div class="mb-3">
                             <label for="nama" class="form-label">Nama</label>
                             <input type="text" class="form-control" id="nama" placeholder="Name">
                         </div>
@@ -30,19 +30,22 @@
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" class="form-control" id="email" placeholder="Email">
-                        </div>
-                        <div class="mb-3">
+                        </div> --}}
+                        <div class="col-md-6">
                             <label for="jumlah" class="form-label">Jumlah</label>
-                            <div class="quantity buttons_added">
+                            {{-- <div class="quantity buttons_added">
                                 <input type="button" value="-" class="minus"><input type="number" step="1" min="1"
                                     max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4"
                                     pattern="" inputmode=""><input type="button" value="+" class="plus">
-                            </div>
+                            </div> --}}
+                            <input type="text" name="jumlah" class="form-control" id="jumlah" required
+                                onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
                         </div>
                         <div class="mb-3">
                             <label for="total" class="form-label">Total</label>
                             <h3>4444444</h3>
                         </div>
+                        <a href="{{ url('/databeli') }}" class="btn btn-detail">Selanjutnya</a>
                     </div>
                 </form>
             </div>

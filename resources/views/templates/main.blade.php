@@ -37,15 +37,9 @@
                     </li>
                 </div>
             </div>
-            <div class="d-flex akun nav-link">
-                <a href="">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-log-out">
-                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
-                        <polyline points="16 17 21 12 16 7"></polyline>
-                        <line x1="21" y1="12" x2="9" y2="12"></line>
-                    </svg> <span class="text-w log">Log Out</span>
+            <div class="d-flex akun nav-link ">
+                <a href="{{ url('/profile') }}" type="button" class=" btn btn-warning">
+                    Profile
                 </a>
             </div>
             {{-- <form class="d-flex">
@@ -64,13 +58,7 @@
                     <div class="single-footer-widget section_padding_0_130">
                         <!-- Footer Logo-->
                         <div class="footer-logo mb-3"></div>
-                        <p>Appland is completely creative, lightweight, clean app landing page.</p>
-                        <!-- Copywrite Text-->
-                        <div class="copywrite-text mb-5">
-                            <p class="mb-0">Made with <i class="lni-heart mr-1"></i>by<a
-                                    class="ml-1"
-                                    href="https://wrapbootstrap.com/user/DesigningWorld">Designing World</a></p>
-                        </div>
+                        <p>Jangan lupa baca bukumu yang sudah kamu beli karena ilmu berasal dari buku.</p>
                     </div>
                 </div>
                 <!-- Single Widget-->
@@ -100,8 +88,8 @@
     <script src="{{ asset('assets/js/jquery-3.1.1.min.js') }}"></script>
     <script src="{{ asset('assets/bootstrap/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
-    <script data-require="jquery@3.1.1" data-semver="3.1.1"
-        src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    {{-- <script data-require="jquery@3.1.1" data-semver="3.1.1"
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> --}}
 </body>
 
 </html>

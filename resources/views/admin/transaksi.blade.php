@@ -1,6 +1,6 @@
 @extends('admin.mainadmin')
 @section('title')
-    Admin
+    Transaksi Buku
 @endsection
 @section('konten')
     <div class="col-md-12">
@@ -22,8 +22,8 @@
         </form> --}}
 
         <div class="page-header">
-            <div class="page-title d-flex">
-                <h3>Daftar Buku</h3>
+            <div class="page-title d-flex ">
+                <h3>Daftar Transaksi Buku</h3>
                 <button class="btn btn-primary btn-sm ml-4">Tambah</button>
             </div>
         </div>

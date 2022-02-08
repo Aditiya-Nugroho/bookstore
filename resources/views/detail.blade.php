@@ -16,8 +16,12 @@
                         <h1>
                             STAR WITHOUT MOON
                         </h1>
-                        <span>29 February</span>
-                        <p class="mt-5">
+                        <span>Junaedi - </span>
+                        <span> Penerbit AryaDuta</span><br>
+                        <span> Stock Buku 5</span><br>
+                        <span>Tahun terbit 29 February</span> <br>
+                        <span> Serial Buku : 8696986986</span>
+                        <p class="mt-3">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit accusantium illo autem laborum
                             error, quibusdam recusandae quo veritatis id ex unde enim, iste harum quam magnam minus velit
                             tempora nulla.

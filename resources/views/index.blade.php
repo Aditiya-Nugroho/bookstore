@@ -107,63 +107,27 @@
                         <img src="{{ asset('assets/img/cver.jpg') }}" class="card-img-top mt-3" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">STAR WITHOUT MOON</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                            <a href="{{ url('/detail') }}" class="btn btn-detail">Detail Buku</a>
-                            <a href="{{ url('/beli') }}" class="btn btn-beli">Beli Buku</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="{{ asset('assets/img/cver2.jpg') }}" class="card-img-top mt-3" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">NOBODY KNOW ABOUT YOU</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                            <a href="{{ url('/detail') }}" class="btn btn-detail">Detail Buku</a>
-                            <a href="#" class="btn btn-beli">Beli Buku</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="{{ asset('assets/img/cver2.jpg') }}" class="card-img-top mt-3" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">NOBODY KNOW ABOUT YOU</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content. lore
+                            <p class="card-text">
+                                <span>Junaedi - </span>
+                                <span>AryaDuta</span><br>
+                                <span>Tahun terbit 29 February</span> <br>
                             </p>
-                            <a href="{{ url('/detail') }}" class="btn btn-detail">Detail Buku</a>
-                            <a href="#" class="btn btn-beli">Beli Buku</a>
+                            <a href="{{ url('/detail') }}" class="btn btn-detail make-center">Detail Buku</a>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
                         <img src="{{ asset('assets/img/cver2.jpg') }}" class="card-img-top mt-3" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">NOBODY KNOW ABOUT YOU</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                            <a href="{{ url('/detail') }}" class="btn btn-detail">Detail Buku</a>
-                            <a href="#" class="btn btn-beli">Beli Buku</a>
+                            <p class="card-text">
+                                <span>Junaedi - </span>
+                                <span>AryaDuta</span><br>
+                                <span>Tahun terbit 29 February</span> <br>
+                            </p>
+                            <a href="{{ url('/detail') }}" class="btn btn-detail make-center">Detail Buku</a>
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="{{ asset('assets/img/cver2.jpg') }}" class="card-img-top mt-3" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">NOBODY KNOW ABOUT YOU</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                            <a href="{{ url('/detail') }}" class="btn btn-detail">Detail Buku</a>
-                            <a href="#" class="btn btn-beli">Beli Buku</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="{{ asset('assets/img/cver2.jpg') }}" class="card-img-top mt-3" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">NOBODY KNOW ABOUT YOU</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                            <a href="{{ url('/detail') }}" class="btn btn-detail">Detail Buku</a>
-                            <a href="#" class="btn btn-beli">Beli Buku</a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
