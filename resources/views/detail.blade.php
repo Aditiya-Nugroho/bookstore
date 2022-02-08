@@ -3,8 +3,8 @@
     Detail Buku
 @endsection
 @section('konten')
-    <div class="detail-buku container mt-5 mb-5">
-        <div class="make-center mt-5 mb-5">
+    <div class="detail-buku container outline-beli">
+        <div class="make-center ">
             <div class="row">
                 <div class="col-md-4">
                     <div class="img-full">

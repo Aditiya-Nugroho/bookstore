@@ -22,6 +22,6 @@ Route::get('/detail', function () {
 Route::get('/beli', function () {
     return view('beli');
 });
-Route::get('/admin', function () {
-    return view('admin.mainadmin');
+Route::get('/indexadmin', function () {
+    return view('admin.indexadmin');
 });
