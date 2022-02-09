@@ -185,7 +185,6 @@
                             </div>
                         </a>
                     </li>
-
                     <li class="menu menu-heading">
                         <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -217,10 +216,10 @@
                         </a>
                         <ul class="collapse submenu list-unstyled" id="users" data-parent="#accordionExample">
                             <li>
-                                <a href="#"> Customer </a>
+                                <a href="{{ url('/customer') }}""> Customer </a>
                             </li>
                             <li>
-                                <a href="#"> Admin </a>
+                                <a href=" {{ url('/daftaradmin') }}""> Admin </a>
                             </li>
                         </ul>
                     </li>

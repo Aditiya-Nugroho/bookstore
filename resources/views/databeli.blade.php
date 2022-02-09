@@ -37,16 +37,12 @@
                                 onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
                         </div>
 
-                        <div class="col-md-6">
-                            <label for="email" class="form-label">Jenis Kelamin</label><br>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="laki">
-                                <label class="form-check-label" for="inlineCheckbox1">Laki - Laki</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="perempuan">
-                                <label class="form-check-label" for="inlineCheckbox2">Perempuan</label>
-                            </div>
+                        <div class="col-md-6 mt-4">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Jenis Kelamin</option>
+                                <option value="laki-laki">Laki-Laki</option>
+                                <option value="perempuan">Perempuan</option>
+                            </select>
                         </div>
                         <div class="col-md-6">
                             <label for="phone" class="form-label">Phone</label>

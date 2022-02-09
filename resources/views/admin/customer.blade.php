@@ -1,13 +1,14 @@
 @extends('admin.mainadmin')
 @section('title')
-    Transaksi Buku
+    Kategori Buku
 @endsection
 @section('konten')
     <div class="col-md-12">
+
         <div class="page-header">
-            <div class="page-title d-flex ">
-                <h3>Daftar Transaksi Buku</h3>
-                {{-- <button class="btn btn-primary btn-sm ml-4">Tambah</button> --}}
+            <div class="page-title d-flex">
+                <h3>Daftar Customer Buku</h3>
+                {{-- <a href={{ url('/kategoribuku') }} type="button" class="btn btn-primary btn-sm ml-4">Tambah</a> --}}
             </div>
         </div>
 
@@ -19,34 +20,30 @@
                         <thead>
                             <tr>
                                 <th>
-                                    id_customer
+                                    NIK
                                 </th>
                                 <th>
-                                    Id Buku
+                                    Nama
                                 </th>
                                 <th>
-                                    operator
+                                    Alamat
                                 </th>
                                 <th>
-                                    id_suser
+                                    Jenis Kelamin
                                 </th>
                                 <th>
-                                    quantity
-                                </th>
-                                <th>
-                                    total
+                                    No Telfon
                                 </th>
                                 <th class="text-center dt-no-sorting">Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Doris Wilder</td>
-                                <td>Sales Assistant</td>
-                                <td>Sidney</td>
-                                <td>23</td>
-                                <td>2010/09/20</td>
-                                <td>$85,600</td>
+                                <td>Caesar Vance</td>
+                                <td>Caesar Vance</td>
+                                <td>Caesar Vance</td>
+                                <td>Caesar Vance</td>
+                                <td>Caesar Vance</td>
                                 <td class="text-center"><button class="btn btn-primary btn-sm">update</button>
                                     <button class="btn btn-danger btn-sm">Hapus</button>
                                 </td>
@@ -55,24 +52,21 @@
                         <tfoot>
                             <tr>
                                 <th>
-                                    id_customer
+                                    NIK
                                 </th>
                                 <th>
-                                    Id Buku
+                                    Nama
                                 </th>
                                 <th>
-                                    operator
+                                    Alamat
                                 </th>
                                 <th>
-                                    id_suser
+                                    Jenis Kelamin
                                 </th>
                                 <th>
-                                    quantity
+                                    No Telfon
                                 </th>
-                                <th>
-                                    total
-                                </th>
-                                <th class="text-center dt-no-sorting">Action</th>
+                                <th class="invisible"></th>
                             </tr>
                         </tfoot>
                     </table>

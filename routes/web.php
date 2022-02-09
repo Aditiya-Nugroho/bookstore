@@ -40,4 +40,19 @@ Route::get('/databeli', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
+Route::get('/tambahbuku', function () {
+    return view('admin.tambahbuku');
+});
+Route::get('/kategoribuku', function () {
+    return view('admin.kategoribuku');
+});
+Route::get('/customer', function () {
+    return view('admin.customer');
+});
+Route::get('/daftaradmin', function () {
+    return view('admin.daftaradmin');
+});
+Route::get('/tambahadmin', function () {
+    return view('admin.tambahadmin');
+});
 
